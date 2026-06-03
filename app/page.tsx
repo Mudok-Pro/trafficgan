@@ -290,7 +290,8 @@ export default function TrafficGANLanding() {
         <div className="hero-glow"></div>
         <div className="hero-content">
           <h1 className="hero-h">PERCEPTION<br />DRIVES<br /><span>MOBILITY</span></h1>
-          <p className="hero-sub">Transform existing city surveillance cameras into real-time vehicle intelligence. No new hardware. Pure AI — deployed in days, not years.</p>
+          <p className="hero-sub">Turn existing city cameras into real-time traffic intelligence.
+          </p>
           <div className="hero-actions">
             <button className="btn-primary" onClick={() => setIsModalOpen(true)}>Request Demo →</button>
             <button className="btn-secondary" onClick={() => document.getElementById('how')?.scrollIntoView({ behavior: 'smooth' })}>See How It Works</button>

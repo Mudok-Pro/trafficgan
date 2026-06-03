@@ -657,7 +657,7 @@ export default function TrafficGANLanding() {
         </div>
         <div className="footer-links">
           <a href="#">Features</a><a href="#">Solutions</a><a href="#">Technology</a><a href="#">Privacy</a>
-          <a href="mailto:hello@trafficgan.ai">hello@trafficgan.ai</a>
+          <a href="mailto:djedaiet.zakaria@gmail.com">djedaiet.zakaria@gmail.com</a>
         </div>
         <div className="footer-copy">© 2025 TrafficGAN. All rights reserved.</div>
       </footer>

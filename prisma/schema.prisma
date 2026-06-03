@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  
+}
+
+model Inquiry {
+  id           String   @id @default(cuid())
+  name         String
+  email        String
+  organization String
+  city         String
+  inquiryType  String
+  message      String?  // Optional field
+  services     String[] // Array to store multiple selected service IDs
+  createdAt    DateTime @default(now())
+}

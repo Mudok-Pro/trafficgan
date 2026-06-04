@@ -290,7 +290,7 @@ export default function TrafficGANLanding() {
         <div className="hero-glow"></div>
         <div className="hero-content">
           <h1 className="hero-h">PERCEPTION<br />DRIVES<br /><span>MOBILITY</span></h1>
-          <p className="hero-sub">Turn existing city cameras into real-time traffic intelligence.
+          <p className="hero-sub">AI-Enhanced traffic monitoring services.
           </p>
           <div className="hero-actions">
             <button className="btn-primary" onClick={() => setIsModalOpen(true)}>Request Demo →</button>
@@ -524,7 +524,7 @@ export default function TrafficGANLanding() {
       <section className="cta-section" id="contact">
         <div className="fade-up">
           <div className="section-label" style={{ color: 'var(--neon)' }}>// GET STARTED</div>
-          <h2>READY TO SEE YOUR<br /><span>CITY CLEARLY?</span></h2>
+          <h2>READY TO SEE YOUR<br /><span>ROADS CLEARLY?</span></h2>
           <p className="cta-sub">Join forward-thinking cities using TrafficGAN to build smarter, safer streets.</p>
           <button className="btn-glow" onClick={() => setIsModalOpen(true)}>Request Your Demo →</button>
         </div>
